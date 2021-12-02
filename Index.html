@@ -21,15 +21,15 @@
       </div>
       <nav>
         <ul>
-          <li><a href="#">Product</a></li>
-          <li><a href="#">Konsul</a></li>
+          <li><a href="#produk">Produk</a></li>
+          <li><a href="#konsul">Form</a></li>
         </ul>
       </nav>
     </header>
-    <main>
-      <div class="row">
+    <div class="main">
+      <div id="produk" class="row">
         <div class="card">
-          <article class="button">
+          <article>
             <div class="card-header">
               <h2>Panadol</h2>
               <img src="panadol.png" alt="panadol" />
@@ -41,11 +41,12 @@
                 aspernatur modi, debitis asperiores adipisci officia harum,
                 libero sint sit repudiandae nostrum.
               </p>
+              <button class="modal-btn">Read More</button>
             </div>
           </article>
         </div>
         <div class="card">
-          <article class="btn">
+          <articl>
             <div class="card-header">
               <h2>Panadol</h2>
               <img src="panadol.png" alt="panadol" />
@@ -57,11 +58,12 @@
                 aspernatur modi, debitis asperiores adipisci officia harum,
                 libero sint sit repudiandae nostrum.
               </p>
+              <button class="modal-btn">Read More</button>
             </div>
           </article>
         </div>
         <div class="card">
-          <article class="button">
+          <article>
             <div class="card-header">
               <h2>Panadol</h2>
               <img src="panadol.png" alt="panadol" />
@@ -73,11 +75,12 @@
                 aspernatur modi, debitis asperiores adipisci officia harum,
                 libero sint sit repudiandae nostrum.
               </p>
+              <button class="modal-btn">Read More</button>
             </div>
           </article>
         </div>
         <div class="card">
-          <article class="button">
+          <article>
             <div class="card-header">
               <h2>Panadol</h2>
               <img src="panadol.png" alt="panadol" />
@@ -89,11 +92,12 @@
                 aspernatur modi, debitis asperiores adipisci officia harum,
                 libero sint sit repudiandae nostrum.
               </p>
+              <button class="modal-btn">Read More</button>
             </div>
           </article>
         </div>
         <div class="card">
-          <article class="button">
+          <article>
             <div class="card-header">
               <h2>Panadol</h2>
               <img src="panadol.png" alt="panadol" />
@@ -105,11 +109,12 @@
                 aspernatur modi, debitis asperiores adipisci officia harum,
                 libero sint sit repudiandae nostrum.
               </p>
+              <button class="modal-btn">Read More</button>
             </div>
           </article>
         </div>
         <div class="card">
-          <article class="button">
+          <article>
             <div class="card-header">
               <h2>Panadol</h2>
               <img src="panadol.png" alt="panadol" />
@@ -121,22 +126,73 @@
                 aspernatur modi, debitis asperiores adipisci officia harum,
                 libero sint sit repudiandae nostrum.
               </p>
+              <button class="modal-btn">Read More</button>
+            </div>
+          </article>
+        </div>
+        <div class="card">
+          <article>
+            <div class="card-header">
+              <h2>Panadol</h2>
+              <img src="panadol.png" alt="panadol" />
+            </div>
+            <div class="card-body">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                veniam doloribus quos! Dolor perferendis, illum ab nemo tenetur
+                aspernatur modi, debitis asperiores adipisci officia harum,
+                libero sint sit repudiandae nostrum.
+              </p>
+              <button class="modal-btn">Read More</button>
+            </div>
+          </article>
+        </div>
+        <div class="card">
+          <article>
+            <div class="card-header">
+              <h2>Panadol</h2>
+              <img src="panadol.png" alt="panadol" />
+            </div>
+            <div class="card-body">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                veniam doloribus quos! Dolor perferendis, illum ab nemo tenetur
+                aspernatur modi, debitis asperiores adipisci officia harum,
+                libero sint sit repudiandae nostrum.
+              </p>
+              <button class="modal-btn">Read More</button>
             </div>
           </article>
         </div>
       </div>
-      <!-- <div class="modal-bg">
-        <div class="modal">
-          <h2>Subscribe to thanks</h2>
-          <label for="name">Name : </label>
-          <input type="text" name="name" />
-          <label for="email">Email : </label>
-          <input type="text" name="email" />
-          <button>Subscribe</button>
-          <span class="modal-close">x</span>
+      <article id="konsul" class="card2">
+        <h2>Form Keluhan</h2>
+        <p>
+          Jika anda ada pertanyaan seputar obat yang ada anda bisa mengklik form
+          button dibawah ini.
+        </p>
+        <button class="modal-btn" data-target="#form">Klik disini</button>
+      </article>
+
+      <!-- Edit modal -->
+      <div class="modal" id="form">
+        <div class="modal-header">
+          <div class="title">Form Keluhan</div>
+          <button class="btn close-modal">&times;</button>
         </div>
-      </div> -->
-    </main>
+        <div class="modal-body">
+          <label for="name">Nama : </label>
+          <input type="text" name="name" /> <br> <br>
+          <label for="HP">No. HP : </label>
+          <input type="text" name="HP" /><br><br>
+          <label for="alamat">Alamat : </label>
+          <input type="text" name="Alamat" /><br> <br>
+          <button class="modal-btn">Submit</button>
+        </div>
+      </div>
+
+      <div id="overlay"></div>
+    </div>
 
     <script src="app.js"></script>
   </body>
